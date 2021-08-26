@@ -1,0 +1,9 @@
+{
+	"name": "a4dfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0552f55f-641b-42e0-99bf-4c70d6e90503",
+		"tenantId": "0bf79f72-6dba-40bb-816c-42dfe853dd39"
+	}
+}

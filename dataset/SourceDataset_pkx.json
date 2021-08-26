@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_pkx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Purchasing",
+			"table": "SupplierCategories"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
