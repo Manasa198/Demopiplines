@@ -185,7 +185,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[Integration].[GetPurchaseUpdates]"
+					"storedProcedureName": "[Integration].[GetStockItemUpdates]"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureSqlDatabase2",
