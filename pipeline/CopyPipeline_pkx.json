@@ -185,7 +185,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[Integration].[GetStockItemUpdates]"
+					"storedProcedureName": "[Integration].[GetStockHoldingUpdates]"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureSqlDatabase2",
@@ -193,7 +193,7 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "stp to blob",
 				"type": "Copy",
 				"dependsOn": [
 					{
@@ -220,7 +220,7 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"sqlWriterStoredProcedureName": "[Integration].[GetSaleUpdates]",
+						"sqlWriterStoredProcedureName": "[Application].[Configuration_ApplyColumnstoreIndexing]",
 						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
